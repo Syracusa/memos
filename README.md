@@ -4,7 +4,7 @@
 cmd 관리자권한 실행
 netsh interface ip delete arpcache
 
-Docker
+#Docker
 
 컨테이너의 조건
 
