@@ -1,4 +1,4 @@
-### VLAN
+# VLAN
 
 
 
@@ -8,11 +8,11 @@
 ## Private VLAN(port isolation)
 스위치 포트를 주어진 uplink로만 통신할수 있게 만드는것
 
-# Primary Vlan
+### Primary Vlan
  동일 Primary Valn, Secondary Vlan들과 통신가능
  Primary Vlan의 promiscuous포트를 통해 Secondary Vlan이 외부통신가능
 
-# Secondary Vlan
+### Secondary Vlan
 
 * isolated vlan 
 
@@ -22,7 +22,7 @@
 
 노드간 서로 통신 가능, Primary Vlan과도 통신가능
 
-# tagged(trunk)/untagged port
+## tagged(trunk)/untagged port
 
 * tagged port(trunk port)
 
