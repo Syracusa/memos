@@ -26,10 +26,10 @@
 
 * tagged port(trunk port)
 
-VLAN 태깅된 프레임을 받는 포트, vlan 다른 프레임들을 다 받음
+VLAN 태깅된 프레임을 받는 포트, 서로 다른 VLAN의 프레임들을 모두 수신
 
 * untagged port 
 
-VLAN 태깅된 프레임을 받아 언태깅해서 host에 전달
+(switch->host)VLAN 태깅된 프레임을 받아 언태깅해서 host에 전달
 
-VLAN 태깅되지 않은 프레임을 받아 태깅해서 타 포트로 전달
+(host->switch)VLAN 태깅되지 않은 프레임을 host로부터 받아 태깅해서 타 포트로 전달
